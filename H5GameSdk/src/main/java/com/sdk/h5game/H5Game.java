@@ -30,7 +30,7 @@ public class H5Game {
     }
 
     public static void start(Context context){
-        context.startActivity(new Intent(context,H5GameActivity.class));
+        context.startActivity(new Intent(context, Game.class));
     }
 
     public static void setShowToolbar(boolean isShow){

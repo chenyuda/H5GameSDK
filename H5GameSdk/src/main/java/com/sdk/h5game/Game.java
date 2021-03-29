@@ -44,7 +44,7 @@ import androidx.appcompat.widget.Toolbar;
  * ================================================
  * @author cyd
  */
-public class H5GameActivity extends AppCompatActivity {
+public class Game extends AppCompatActivity {
 
     Toolbar toolbar;
 
