@@ -125,7 +125,7 @@ public class ConfigManager {
                         .appName(mAppName)
                         .titleBarTheme(TTAdConstant.TITLE_BAR_THEME_DARK)
                         .allowShowNotify(true) //是否允许sdk展示通知栏提示
-                        .debug(true) //测试阶段打开，可以通过日志排查问题，上线时去除该调用
+//                        .debug(true) //测试阶段打开，可以通过日志排查问题，上线时去除该调用
                         .directDownloadNetworkType(TTAdConstant.NETWORK_STATE_WIFI, TTAdConstant.NETWORK_STATE_4G,TTAdConstant.NETWORK_STATE_3G,TTAdConstant.NETWORK_STATE_2G) //允许直接下载的网络状态集合
                         .supportMultiProcess(true) //是否支持多进程，true支持
                         //.httpStack(new MyOkStack3())//自定义网络库，demo中给出了okhttp3版本的样例，其余请自行开发或者咨询工作人员。
