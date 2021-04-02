@@ -121,4 +121,8 @@ public void *(***);
 -keep public interface com.bytedance.sdk.openadsdk.downloadnew.* {*;}
 -keep class com.pgl.sys.ces.* {*;}
 
+-keep class com.android.volley.*{*;}
+-keep class com.android.volley.cronet.*{*;}
+-keep class com.android.volley.toolbox.*{*;}
+
 
